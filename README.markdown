@@ -8,14 +8,14 @@
 
 #Add a panel element to your html
 
-  <div id="panel">
-    <div class="wrapper">
-      <a class="close" href="#">Close</a>
-      <div class="inner">
-        <div class="wrapper"></div>
-      </div>
+    <div id="panel">
+        <div class="wrapper">
+          <a class="close" href="#">Close</a>
+          <div class="inner">
+            <div class="wrapper"></div>
+          </div>
+        </div>
     </div>
-  </div>
 
 ##Load the plugin on your element 
     <script type="text/javascript">
