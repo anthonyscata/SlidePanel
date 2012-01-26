@@ -26,6 +26,13 @@
         );
     </script>
 
+
+##Add a panel trigger
+The href attribute is used to load external HTML content into your panel
+    <a href="external.php" rel="panel" id="show">Show Panel</a>
+    
+
+
 ##Misc
 
 If you pass an element to the plugin that does not currently existin the dom, the plugin will create a default element with the above format.
