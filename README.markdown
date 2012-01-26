@@ -1,3 +1,5 @@
+For a demo goto http://codebomber.com/jquery/slidepanel
+
 #Quickstart
 
 ##Include required files
