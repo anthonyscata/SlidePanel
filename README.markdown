@@ -29,6 +29,7 @@
     
 ##Add a panel trigger
 The href attribute is used to load external HTML content into your panel
+    
     <a href="external.php" rel="panel" id="show">Show Panel</a>
     
 
