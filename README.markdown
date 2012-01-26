@@ -36,4 +36,4 @@ The href attribute is used to load external HTML content into your panel
 
 ##Misc
 
-If you pass an element to the plugin that does not currently existin the dom, the plugin will create a default element with the above format.
+If you pass an element to the plugin that does not currently exist in the dom, the plugin will create a default element with the above format.
