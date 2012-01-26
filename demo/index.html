@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Slidepanel Demo</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="../js/jquery.codebomber.panel.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/jquery.codebomber.panel.css">
+	</head>
+    <style type="text/css">
+        #nav {
+            background: none repeat scroll 0 0 #E7ECF4;
+            border: 1px solid #D2D7E3;
+            border-radius: 6px 6px 6px 6px;
+            color: #55679D;
+            margin: 45px auto;
+            padding: 15px;
+            width: 250px;
+            
+        }
+        #nav h1 {
+            display: inline-block;
+        }
+        #nav a {
+            color: #787D88;
+            display: inline-block;
+            margin: 0 0 0 25px;
+            
+        }
+    </style>
+	<body>
+		<div id="nav">
+			<h1>SlidePanel</h1>
+			<a href="external.html" class="user" rel="panel" id="show">Show Panel</a>
+		</div>
+		<div id="panel" class="cb_slide_panel">
+			<div class="wrapper">
+				<a href="#" class="close">Close</a>
+				<div class="inner">
+					<div class="wrapper"></div>
+				</div>
+			</div>
+		</div>
+        <script type="text/javascript">
+			$(document).ready(
+				function(){
+					$('#panel').codebomber_Panel();
+				}
+			);
+		</script>
+	</body>
+</html>
