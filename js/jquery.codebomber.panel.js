@@ -1,5 +1,6 @@
 /*!
  * Codebomber SlidePanel
+ * Version: 0.3
  * http://codebomber.com/jquery/slidepanel
  *
  * Copyright 2012, William Golden
@@ -136,7 +137,7 @@
 		//if no matching selectors found
 		//create a new element based on html template
 		if(this.length == 0){
-			var panel_html = '<div id="panel"><div class="wrapper"><a href="#" class="close">Close</a><div class="inner"><div class="wrapper"></div></div></div></div>';
+			var panel_html = '<div id="panel class="cb_slide_panel"><div class="wrapper"><a href="#" class="close">Close</a><div class="inner"><div class="wrapper"></div></div></div></div>';
 			var element = $(panel_html).hide().appendTo($('body'));
 			return (new $.Codebomber.Panel(element, options));
 		} else {
