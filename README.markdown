@@ -8,7 +8,7 @@
 
 #Add a panel element to your html
 
-    <div id="panel">
+    <div id="panel" class="cb_slide_panel">
         <div class="wrapper">
           <a class="close" href="#">Close</a>
           <div class="inner">
